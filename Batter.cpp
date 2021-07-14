@@ -1,7 +1,7 @@
 /**
  * Contains the method definitions of the Batter class
  * @file Batter.cpp
- * @author Noah Bridgeman/Milo Thatch/TastyChips16
+ * @author Noah Bridgeman
  * @date 5/12/2021
  */
 #include "Batter.h"

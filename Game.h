@@ -1,7 +1,7 @@
 /**
  * Contains the method and member variable declarations of the Game class
  * @file Game.h
- * @author Noah Bridgeman/Milo Thatch/TastyChips16
+ * @author Noah Bridgeman
  * @date 5/12/2021
  */
 #ifndef GAME_H

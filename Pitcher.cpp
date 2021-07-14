@@ -1,7 +1,7 @@
 /**
  * Contains the method definitions of the Pitcher class
  * @file Pitcher.cpp
- * @author Noah Bridgeman/Milo Thatch/TastyChips16
+ * @author Noah Bridgeman
  * @date 5/12/2021
  */
 #include "Pitcher.h"

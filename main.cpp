@@ -1,7 +1,7 @@
 /**
  * Plays through a baseball game with two user-inputted teams
  * @file main.cpp
- * @author Noah Bridgeman/Milo Thatch/TastyChips16
+ * @author Noah Bridgeman
  * @date 5/12/2021
  */
 #include <ncurses.h>

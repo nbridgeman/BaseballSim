@@ -1,7 +1,7 @@
 /**
  * Contains the method and member variable declarations of the Pitcher class
  * @file Pitcher.h
- * @author Noah Bridgeman/Milo Thatch/TastyChips16
+ * @author Noah Bridgeman
  * @date 5/12/2021
  */
 #ifndef PITCHER_H
