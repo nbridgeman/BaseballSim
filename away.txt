@@ -1,0 +1,11 @@
+Marlins
+P.Lopez 70 100
+M.Rojas 51 37
+S.Marte 44 12
+J.Aguilar 55 22
+G.Cooper 17 70
+A.Duvall 23 90
+B.Anderson 23 49
+J.Berti 25 38
+J.Alfaro 41 83
+P.Lopez 10 10

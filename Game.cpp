@@ -11,6 +11,9 @@ const std::string OUT_OPTIONS[5] = {" grounded out. ", " flew out. ", " popped o
 const std::string HIT_OPTIONS[4] = {" hit a single.\n", " hit a double.\n",
                                     " hit a triple.\n", " hit a home run.\n"};
 const short NUM_BASES = 3;
+const std::string HOME_FILE = "home.txt";
+const std::string AWAY_FILE = "away.txt";
+
 
 /**
  * Default constructor for Game object
@@ -44,8 +47,8 @@ Game::~Game() {
  * Takes input that is assigned to the member variables of team objects
  */
 void Game::input_teams() {
-    _away->input_team();
-    _home->input_team();
+    _away->input_team(AWAY_FILE);
+    _home->input_team(HOME_FILE);
 }
 
 /**

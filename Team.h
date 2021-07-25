@@ -11,12 +11,13 @@
 #include "Batter.h"
 #include <string>
 #include <iostream>
+#include <fstream>
 
 class Team {
 public:
     Team();
     ~Team();
-    void input_team();
+    void input_team(std::string filename);
     std::string get_team_name();
     std::string get_batter_name(short num);
     short roll_batter(short num);

@@ -33,16 +33,18 @@ Team::~Team() {
 /**
  * Takes in input for a team and updates all member variables
  */
-void Team::input_team() {
-    cin >> _team_name;
+void Team::input_team(std::string filename) {
+    ifstream infile;
+    infile.open(filename);
+    infile >> _team_name;
     string name = "F.Surname";
     short first_stat = 50;
     short second_stat = 50;
-    cin >> name >> first_stat >> second_stat;
+    infile >> name >> first_stat >> second_stat;
     delete _starter;
     _starter = new Pitcher(name, first_stat, second_stat);
     for (size_t num = 0; num < LINEUP_SIZE; num++) {
-        cin >> name >> first_stat >> second_stat;
+        infile >> name >> first_stat >> second_stat;
         delete _lineup[num];
         _lineup[num] = new Batter(name, first_stat, second_stat);
     }
