@@ -1,9 +1,0 @@
-CMakeCache.txt
-cmake_install.cmake
-CMakeFiles
-CMakeFiles/*
-CMakeFiles/*/*
-Makefile
-ncurses-6.2*
-ncurses_test
-opencv_test
