@@ -1,5 +1,5 @@
 # BaseballSim
-The input file is structured like so, and needs to be copy/pasted or hand-inputted.
+The input files (away.txt and home.txt) are structured like so:
 In the example provided, for each player I took two stat percentiles for each player, wxOBA for Pitching/Contact and Hard-Hit-% for Power. Stamina was set to 100 as a default.
 
 Team 1 Name
